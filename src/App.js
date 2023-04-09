@@ -1,14 +1,14 @@
 import React from 'react'
-import ProductsPosting from './Pages/ProductsPosting'
-import Productss from './Pages/Productss'
+import ProductesPosting from './Pages/ProductesPosting'
+import Product from './Pages/Product'
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 const App = () => {
   return (
     <div className='App'>
       <Router>
         <Routes>
-          <Route path='/' element={<Productss/>}/>
-          <Route path='/post' element={<ProductsPosting/>}/>
+          <Route path='/' element={<Product/>}/>
+          <Route path='/post' element={<ProductesPosting/>}/>
         </Routes>
       </Router>        
     </div>

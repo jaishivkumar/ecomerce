@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import styles from './Posts.module.css'
+import styles from './Postss.module.css'
 import { useNavigate } from "react-router-dom";
 const ProductsPosting = () => {
     const [name, setName] = useState("");
